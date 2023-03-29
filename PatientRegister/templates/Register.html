@@ -1,0 +1,12 @@
+<form action="userregister" method="get">
+    Firstname:<input type="text" name="First_Name"><br><br>
+    Lastname:<input type="text" name="Last_Name"><br><br>
+    Username:<input type="text" name="username"><br><br>
+    Email:<input type="text" name="email"><br><br>
+    Password:<input type="Password" name="password"><br><br>
+    <button>Submit</button>
+</form>
+
+{%for msg in messages%}
+    <p>{{msg}}</p>
+{%endfor%}
